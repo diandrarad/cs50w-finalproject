@@ -10,8 +10,8 @@ import requests
 import urllib.parse
 
 URL = 'https://api.adzuna.com/v1/api/jobs/'
-APP_ID = 'eb960c93'
-APP_KEY = 'a50f8fc379551f42f35f8dcb93e1ab26'
+APP_ID = input("Enter your APP_ID: ")
+APP_KEY = input("Enter your app_key: ")
 APP_ID_KEY = 'app_id=' + APP_ID + '&app_key=' + APP_KEY
 
 # List of countries
