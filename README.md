@@ -50,7 +50,11 @@ To run the job search website, follow these steps:
     
     ```python manage.py migrate```
     
-5. Obtain an API key from Adzuna API and input your API key to the terminal.
+5. Obtain an API key from Adzuna API and update the APP_ID and APP_KEY variables with your own credentials in the settings.py file located in the project directory.
+
+    ```APP_ID = 'your_app_id'```
+    
+    ```APP_KEY = 'your_app_key'```
 
 6. Start the development server by running the following command:
 
