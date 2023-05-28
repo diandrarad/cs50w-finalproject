@@ -30,7 +30,7 @@ The project's file structure is organized as follows:
     - \`**urls.py**\`: Defines the project's URL patterns and their corresponding views.
     - \`**wsgi.py**\`: WSGI application entry point for deployment.
 - \`**jobsearch/**\`: Django app directory for handling job-related functionality.
-    - \`**models.py**\`: Contains Django models for representing job listings, user profiles, and saved job listings.
+    - \`**models.py**\`: Contains Django models for representing user profiles and saved job listings.
     - \`**views.py**\`: Defines the views and request handlers for rendering job listings, search results, and user actions.
     - **templates/**: Directory for storing HTML templates used by the app.
     - \`**static/**\`: Directory for storing static files such as CSS stylesheets, JavaScript files, and images.
