@@ -31,19 +31,19 @@ To run the job search website, follow these steps:
 2. Make sure you have Python and Django installed on your system.
 3. Install the required Python packages by running the following command in the project's root directory:
 
-    pip install -r requirements.txt
+    ```pip install -r requirements.txt```
     
 4. Set up the database by executing the following commands:
 
-    python manage.py makemigrations
+    ```python manage.py makemigrations
     python manage.py migrate
-    Obtain an API key from Adzuna API and update the settings.py file with your API key.
+    Obtain an API key from Adzuna API and update the settings.py file with your API key.```
 
 5. Start the development server by running the following command:
 
-    python manage.py runserver
+    ```python manage.py runserver```
 
-6. Open your web browser and visit \`**http://localhost:8000**\` to access the job search website.
+6. Open your web browser and visit \`**http://localhost:8000**` to access the job search website.
 
 ## Requirements
 To meet the requirements of the project, the following criteria have been fulfilled:
