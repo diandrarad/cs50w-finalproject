@@ -1,7 +1,7 @@
-from collections import OrderedDict
+from django.conf import settings
 from django.contrib.auth import authenticate, login, logout
 from django.db import IntegrityError
-from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
+from django.http import HttpResponseRedirect, JsonResponse
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse
 
@@ -10,8 +10,8 @@ import requests
 import urllib.parse
 
 URL = 'https://api.adzuna.com/v1/api/jobs/'
-APP_ID = input("Enter your APP_ID: ")
-APP_KEY = input("Enter your app_key: ")
+APP_ID = settings.APP_ID
+APP_KEY = settings.APP_KEY
 APP_ID_KEY = 'app_id=' + APP_ID + '&app_key=' + APP_KEY
 
 # List of countries
