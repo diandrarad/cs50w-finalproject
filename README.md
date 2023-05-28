@@ -46,7 +46,7 @@ To run the job search website, follow these steps:
     
 4. Set up the database by executing the following commands:
 
-    ```python manage.py makemigrations```
+    ```python manage.py makemigrations jobsearch```
     
     ```python manage.py migrate```
     
