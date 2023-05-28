@@ -35,7 +35,7 @@ To run the job search website, follow these steps:
     
 4. Set up the database by executing the following commands:
 
-    ```python manage.py makemigrations
+    python manage.py makemigrations```
     python manage.py migrate```
     
 5. Obtain an API key from Adzuna API and update the settings.py file with your API key.
@@ -44,7 +44,7 @@ To run the job search website, follow these steps:
 
     ```python manage.py runserver```
 
-7. Open your web browser and visit \`**http://localhost:8000**` to access the job search website.
+7. Open your web browser and visit \`http://localhost:8000\` to access the job search website.
 
 ## Requirements
 To meet the requirements of the project, the following criteria have been fulfilled:
