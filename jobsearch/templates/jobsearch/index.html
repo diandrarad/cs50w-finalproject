@@ -1,7 +1,36 @@
 {% extends "jobsearch/layout.html" %}
 
 {% block main %}
-  <h2 class="mt-5">Active Listings</h2>
-  <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
-  </div>
+    <div class="p-4 p-md-5 mb-4 rounded bg-dark">
+        <div class="row align-items-center g-lg-5 py-5">
+        <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fst-italic text-light">Find Your Dream Job</h1>
+            <p class="lead my-3 text-light">Search for Jobs by Keywords or Location.</p>
+        </div>
+        <div class="col-md-10 mx-auto col-lg-5">
+            <div class="input-group input-group-sm">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control search-field" id="titleInput" placeholder="Job Title">
+                    <label for="floatingInput">Job Title</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control search-field" id="locationInput" placeholder="Location">
+                    <label for="floatingPassword">Location</label>
+                </div>
+            </div>
+            <button id="search-button" class="w-100 btn btn-outline-light" type="submit">Search</button>
+        </div>
+        </div>
+    </div>
+
+    <div id="loading-gif"></div>
+
+    <div id="jobs-view">
+    </div>
+
+    
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center d-flex align-items-center">
+        </ul>
+    </nav>
 {% endblock %}
