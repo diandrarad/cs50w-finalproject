@@ -27,6 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# API credentials
+APP_ID = 'your_app_id'
+APP_KEY = 'your_app_key'
+
 
 # Application definition
 
