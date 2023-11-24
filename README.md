@@ -1,5 +1,7 @@
 # Job Search Website
 
+![Screenshot](screenshot.webp)
+
 ### [Video Demo](https://youtu.be/kMQkVKU6f-M)
 
 ## Description
